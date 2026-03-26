@@ -1,0 +1,10 @@
+body {
+    background-color: rgba(178, 228, 239, 0.879);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.profile {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid aliceblue;
+}   

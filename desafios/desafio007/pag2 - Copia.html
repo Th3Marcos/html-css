@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>desafio-imagens</title>
+</head>
+<link rel="stylesheet" href="estilo.css">
+
+<body>
+    <h1>Teste de imagem flexível 2</h1>
+    <p>Já neste teste, veremos uma imagem que "cresce". Mude o tamanho da tela pra ver mais da paisagem:</p>
+    <picture>
+        <source media="(max-width: 600px)" srcset="imagens/ct2.jpg">
+        <source media="(max-width: 1000px)" srcset="imagens/ct1.jpg">
+        <img src="imagens/original.jpg" alt="paisagem" height="700">
+    </picture>
+    <hr>
+    <div>
+        <a href="../index.html">VOLTAR</a>
+    </div>
+
+</body>
+
+</html>

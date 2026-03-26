@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Borda</title>
+    <style>
+        h1 {
+            border: 10px solid red;
+            padding: 10px;
+            border-image: url(borda01.png) 39 repeat; /* Atalho para definir a borda com imagem */
+            
+            /* Alternativamente, você pode usar as propriedades individuais: */
+
+            border-image-source: url(borda01.png);
+            border-image-slice: 39; /* Define a fatia da imagem para a borda */
+            border-image-repeat: repeat;/* Repete a imagem da borda */
+            font-family: cursive;
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste de Borda</h1>
+</body>
+</html>

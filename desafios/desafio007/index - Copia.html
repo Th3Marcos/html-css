@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>desafio-imagens</title>
+</head>
+<link rel="stylesheet" href="estilo.css">
+
+<body>
+
+    <h1>Teste de imagem flexível</h1>
+    <p>Abaixo você vai ver um exemplo de imagem flexível, nesse exemplo, a imagem muda de tamanho conforme a tela ,para
+        usar mais ou menos dados:</p>
+    <picture>
+        <source media="(max-width: 700px)" srcset="imagens/paisagem-p.jpg" width="1000">
+        <source media="(max-width: 1000px)" srcset="imagens/paisagem-m.jpg" width="1000">
+        <img src="imagens/paisagem-g.jpg" alt="paisagem" height="700">
+    </picture>
+    <hr>
+    <div>
+        <a href="pag2.html">PRÓXIMO</a>
+    </div>
+
+</body>
+
+</html>

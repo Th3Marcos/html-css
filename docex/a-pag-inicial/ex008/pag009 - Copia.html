@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../ex003/icon/porsche-ico.ico" type="image/x-icon">
+    <title>Mídias em HTML5</title>
+</head>
+<link rel="stylesheet" href="../estilo.css">
+
+<body>
+    <div>
+        <a href="../index.html">Voltar para o Início</a>
+    </div>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu
+        navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png">
+        <img src="imagens/foto-g.png" alt="foto teste">
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <h2>Áudio 1:</h2>
+    <audio preload="metadata" controls loop>
+        <source src="midia/claim.mp3" type="audio/mpeg">
+        <p>Infelizmente seu site não consegue reproduzir áudio. <a href="midia/claim.mp3">Clique aqui para baixar o
+                arquivo</a></p>
+    </audio>
+    <br><hr><br>
+    <h2>Áudio 2:</h2>
+    <audio preload="metadata" controls loop>
+        <source src="midia/twink.mp3" type="audio/mpeg">
+        <p>Infelizmente seu site não consegue reproduzir áudio. <a href="midia/twink.mp3">Clique aqui para baixar o
+                arquivo</a></p>
+
+    </audio>
+</body>
+
+</html>

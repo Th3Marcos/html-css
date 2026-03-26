@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #dbfd8d8e;
+}
+h1 {
+    color: #2d572c;
+    text-align: center;
+}
+img {
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+}
+p {
+    text-align: center;
+    font-size: 20px;
+    color: #1b3e1b;
+}
+a {
+    text-decoration: none;
+    color: #145214;
+    font-weight: bold;
+}
+a:hover {
+    color: #b93535;
+}
+a:active {
+    color: #ffffff;
+}
+h1:hover {
+    color: #b93535;
+}

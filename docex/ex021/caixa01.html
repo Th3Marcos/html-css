@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+        h1 { /* h1 é um elemento box-level */
+            background-color: lightblue;
+            height: 300px;
+            width: 300px;
+
+            border: 10px solid blue;
+
+            padding: 10px;
+
+            margin: 20px 20px 40px 20px;
+            /*Para centralizar uma caixa no meio você pode usar margin: auto;
+              Para textos você pode usar text-align: center;*/
+
+            outline: 5px dashed green;
+
+        }
+
+        a { /* a é um elemento inline-level */
+            border: 2px groove red;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Exemplo de Caixa box-level</h1>
+    <p>Parágrafos também são elementos box-level, mas os <a href="@">são exemplos de inline-level</a> Vamos ver como
+        isso funciona.</p>
+
+</body>
+
+</html>

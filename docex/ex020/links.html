@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="
+pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /*
+        Estilizando links com pseudo-classes e pseudo-elementos
+
+        # = id
+        . = class
+        : = pseudo-classe
+        :: = pseudo-elemento
+        > = filho direto/children
+
+        */
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        a {
+            color: lightblue;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: rgb(53, 119, 73);
+        }
+
+        a:hover {
+            color: red;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: rgb(249, 253, 0);
+        }
+
+        a::after {
+            content: "◀️";
+        }
+
+        a::before {
+            content: "▶️";
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://github.com/Th3Marcos" target="_blank">Repositório Github</a></li>
+        <li><a href="http://youtube.com/watch?v=m58OVEz0bp0" target="_blank">Canal Youtube</a></li>
+        <li><a href="https://www.instagram.com/marcos.andrade.93/" target="_blank">Instagram</a></li>
+    </ul>
+
+</body>
+
+</html>

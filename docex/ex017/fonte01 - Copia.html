@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            /*
+            Medidas Absolutas: px, pt, cm, mm, in
+
+
+            Medidas Relativas: em, ex,  rem, %, vw, vh
+            16px = 1em
+            1em = tamanho da letra
+            1rem = tamanho da letra raiz (html)
+            100% = tamanho da letra do elemento pai
+            1vw = 1% da largura da viewport
+            1vh = 1% da altura da viewport
+            */
+            font-size: 16px;
+            /* Medidas de Font = weight(peso), width(largura), height(altura) */
+            font-weight: 400; /* normal */
+            /* font-weight: 700;  bold e etc...*/
+            font-style: normal; /* normal, italic, oblique */ 
+        }
+        h1 {
+            font-family: 'Georgia', serif;
+            font-weight: bold;
+            font-style: italic;
+            font-size: 2.5em;
+            /* shorthand font: font-style font-weight font-size, font-family;
+            Ao invés de escrever todas as propriedades separadas, podemos usar a forma abreviada
+            */
+            font: italic bold 2.5em Georgia, serif;
+        }
+        h2 {
+            font-family: 'Courier New', monospace;
+        }
+
+    </style>
+</head>
+<!--Exemplo de CSS inline para definir fontes diferentes para elementos específicos-->
+
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat similique quas velit, molestias porro sequi
+        blanditiis. Quaerat asperiores ex obcaecati culpa error dolorem maiores perferendis et, dignissimos harum ipsum
+        eum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam labore, reiciendis dicta doloribus atque
+        pariatur? Omnis quis dolore labore modi excepturi? Sint aperiam voluptatibus blanditiis eveniet asperiores
+        consequuntur in quisquam?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae dignissimos cupiditate ex laboriosam
+        pariatur. Voluptates sint cum neque adipisci blanditiis optio explicabo magni ullam asperiores fugit. Laborum,
+        placeat voluptatem? Recusandae!</p>
+
+    <h2>Subtítulo do Exercício</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat similique quas velit, molestias porro sequi
+        blanditiis. Quaerat asperiores ex obcaecati culpa error dolorem maiores perferendis et, dignissimos harum ipsum
+        eum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero porro adipisci, natus sequi, soluta in
+        architecto inventore saepe repudiandae nam quos, eligendi odit tempore facere magnam fugit ipsam ut tenetur.</p>
+</body>
+
+</html>

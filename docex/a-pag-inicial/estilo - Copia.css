@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(0, 242, 161);
+    font-family: Arial, sans-serif;
+    margin-left: 10px;
+}
+
+a {
+    background-color: rgb(132, 133, 133);
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px;
+    margin: 2px;
+}
+
+a:hover {
+    background-color: rgb(255, 170, 0);
+    color: black;
+}
+
+.a1 {
+    background-color: royalblue;
+}
+
+.a2 {
+    background-color: rgb(253, 17, 17);
+}
+
+img {
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    margin: 20px;
+
+}
+
+audio {
+    border: 3px solid rgb(235, 17, 17);
+    border-radius: 30px;
+    margin: 20px;
+}
+
+video {
+    border: 3px solid rgb(17, 34, 235);
+    border-radius: 30px;
+    margin: 20px;
+}
+
+iframe {
+    border: 3px solid rgb(17, 34, 235);
+    border-radius: 30px;
+    margin: 20px;
+}

@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+        body {
+            margin: 20px;
+            background-color: #9ac3e6;
+        }
+
+        h1 {
+            color: darkblue;
+            border-bottom: 2px solid darkblue;
+            padding-bottom: 5px;
+            background-color: azure;
+        }
+
+        h2 {
+            color: darkgreen;
+            margin-top: 20px;
+        }
+
+        p {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
