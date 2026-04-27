@@ -1,25 +1,30 @@
+/*Código de caracteres do site*/
 @charset "UTF-8";
 
+/*Fontes usadas no Site*/
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
+/*Base de fontes e cores do Site*/
 :root {
     --fonte1: Verdana, Geneva, Tahoma, sans-serif;
     --fonte2: "Passion One", cursive;
     --fonte3: "Sriracha", cursive;
 }
 
-
+/*Regras globais do site*/
 * {
     margin: 0;
     padding: 0;
     font-size: 1em;
 }
 
+
 html,
 body {
     min-height: 100vh;
+    /*vh= View Height (Altura da Visualização)*/
     background-color: darkgray;
     font-family: var(--fonte1);
 }
@@ -34,6 +39,7 @@ header>h1 {
     padding-top: 50px;
     font-variant: small-caps;
     font-size: 10vw;
+    /*vw= View Widht (Largura da Visualização)*/
     font-family: var(--fonte2);
 }
 
