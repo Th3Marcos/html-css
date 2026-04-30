@@ -82,7 +82,7 @@ section.imagem {
     color: white;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.5);
     background-size: cover;
-    background-attachment: fixed;/*Fixa a imagem de fundo, para que ela não se mova quando o usuário rolar a página.*/
+    background-attachment: fixed;/*Fixa a imagem de fundo, para que ela não se mova quando o usuário rolar a página.*/ 
 }
 
 section.imagem p {
