@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 400px;
+        }
+
+        /* A propriedade border-collapse é usada para controlar o espaçamento entre as bordas das células em uma tabela. Quando definida como collapse,
+        as bordas das células adjacentes se fundem em uma única borda,
+        eliminando o espaço entre elas. Isso resulta em uma aparência mais compacta e organizada para a tabela. */
+
+        tr.linha {
+            background-color: #969696;
+        }
+
+        td {
+            border: 1px solid #ccc;
+            padding: 8px;
+        }
+
+        td.dados {
+            background-color: #e26767;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Minha Primeira Tabela</h1>
+
+    <!-- A estrutura básica de uma tabela em HTML é composta por elementos como <table>, <tr> (table row), <td> (table data) e <th> (table header). O elemento <table> é o contêiner principal da tabela, enquanto os elementos <tr> definem as linhas da tabela. Dentro de cada linha, os elementos <td> são usados para definir as células de dados, e os elementos <th> são usados para definir as células de cabeçalho. -->
+
+    <table>
+        <tr>
+            <td>A1</td>
+            <td>B1</td>
+            <td>C1</td>
+        </tr>
+
+        <tr class="linha">
+            <td>A2</td>
+            <td>B2</td>
+            <td>C2</td>
+        </tr>
+
+        <tr>
+            <td>A3</td>
+            <td>B3</td>
+            <td>C3</td>
+        </tr>
+
+        <tr>
+            <td class="dados">A4</td>
+            <td>B4</td>
+            <td>C4</td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
