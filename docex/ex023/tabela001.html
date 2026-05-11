@@ -14,24 +14,21 @@
         table {
             border-collapse: collapse;
             width: 400px;
+            height: 400px;
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center; /* Alinhamento horizontal*/
+            vertical-align: middle; /* Alinhamento vertical */
         }
 
         /* A propriedade border-collapse é usada para controlar o espaçamento entre as bordas das células em uma tabela. Quando definida como collapse,
         as bordas das células adjacentes se fundem em uma única borda,
         eliminando o espaço entre elas. Isso resulta em uma aparência mais compacta e organizada para a tabela. */
 
-        tr.linha {
-            background-color: #969696;
-        }
 
-        td {
-            border: 1px solid #ccc;
-            padding: 8px;
-        }
-
-        td.dados {
-            background-color: #e26767;
-        }
     </style>
 
 </head>
@@ -48,7 +45,7 @@
             <td>C1</td>
         </tr>
 
-        <tr class="linha">
+        <tr>
             <td>A2</td>
             <td>B2</td>
             <td>C2</td>
@@ -61,7 +58,7 @@
         </tr>
 
         <tr>
-            <td class="dados">A4</td>
+            <td>A4</td>
             <td>B4</td>
             <td>C4</td>
         </tr>
