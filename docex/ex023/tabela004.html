@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela004</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 1px solid rgb(0, 102, 255);
+            padding: 10px;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Exercícios de Tabelas</h1>
+    <table>
+        <caption>
+            Filmes Favoritos
+        </caption>
+        <thead>
+            <tr>
+                <th scope="col">Grupos</th>
+                <th scope="col">Nomes</th>
+                <th scope="colgroup" colspan="3">Filmes</th>
+            </tr>
+
+        </thead>
+        <tfoot>
+            <tr>
+                <th colspan="4" scope="row">Total</th>
+                <td>1000</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Mulheres</th>
+                <td>Ana Maria Santos</td>
+                <td>Alien</td>
+                <td>Rambo</td>
+                <td>Vingadores</td>
+            </tr>
+            <tr>
+                <td>Maria Clara</td>
+                <td>O Exorcista</td>
+                <td>O Poderoso Chefão</td>
+                <td>Madagascar</td>
+            </tr>
+            <tr>
+                <td>Juliana</td>
+                <td>O Iluminado</td>
+                <td>Gladiador</td>
+                <td>O Sexto Sentido</td>
+            </tr>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Homens</th>
+                <td>João Pedro</td>
+                <td>O Rei Leão</td>
+                <td>Vingadores</td>
+                <td>O Senhor dos Anéis</td>
+            </tr>
+            <tr>
+                <td>Lucas</td>
+                <td>O Poderoso Chefão</td>
+                <td>Taxi Driver</td>
+                <td>O Sexto Sentido</td>
+            </tr>
+            <tr>
+                <td>Rafael</td>
+                <td>Hulk</td>
+                <td>Batman</td>
+                <td>O Senhor dos Anéis</td>
+            </tr>
+
+
+        </tbody>
+
+
+    </table>
+
+</body>
+
+</html>
