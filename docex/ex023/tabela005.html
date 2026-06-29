@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios de Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 500px;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bolder;
+            margin-bottom: 10px;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        .green {
+            background-color: #90ee90;
+        }
+
+        .blue {
+            background-color: #add8e6;
+        }
+
+        .yellow {
+            background-color: #ffffe0;
+        }
+
+        .red {
+            background-color: #f08080;
+        }
+        /* Alternativa para colorir as linhas de forma alternada */
+    </style>
+
+</head>
+
+<body>
+    <h1>Exercícios de Tabelas</h1>
+    <table>
+        <colgroup>
+            <col class="green">
+            <col class="blue">
+            <col class="yellow">
+            <col class="red">
+        </colgroup>
+
+        <caption> Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>João</td>
+            <td>M</td>
+            <td>25</td>
+            <td>Engenheiro</td>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>F</td>
+            <td>30</td>
+            <td>Médica</td>
+        </tr>
+        <tr>
+            <td>Carlos</td>
+            <td>M</td>
+            <td>28</td>
+            <td>Professor</td>
+        </tr>
+        <tr>
+            <td>Ana</td>
+            <td>F</td>
+            <td>22</td>
+            <td>Designer</td>
+        </tr>
+        <tr>
+            <td>Pedro</td>
+            <td>M</td>
+            <td>35</td>
+            <td>Advogado</td>
+        </tr>
+        <tr>
+            <td>Carla</td>
+            <td>F</td>
+            <td>27</td>
+            <td>Arquiteta</td>
+        </tr>
+    </table>
+</body>
+
+</html>
