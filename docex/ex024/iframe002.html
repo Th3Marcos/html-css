@@ -15,6 +15,10 @@
             display: block;
             margin: auto;
         }
+        .error {
+            color: red;
+            font-weight: bold;
+        }
     </style>
 </head>
 
@@ -36,7 +40,9 @@
         ut labore et dolore magna aliqua.</p>
     <p>Abaixo um exemplo de iframe de um site interno:</p>
 
-    <iframe src="pag001.html" width="500" height="500" frameborder="0"></iframe>
+    <iframe src="paginasextras/pag001.html" width="500" height="500" frameborder="0">
+        <p class="error">Seu navegador não suporta iframes.</p>
+    </iframe>
 
 
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore
