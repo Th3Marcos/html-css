@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #acf8b2;
+        }
+
+        p {
+            font-size: 18px;
+            color: #333;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="#" onclick="clicou()">Clique aqui</a>
+    <div id="saída"></div>
+    <script>
+        function clicou() {
+            S = window.document.getElementById("saída")
+            S.innerHTML += "<p>Você clicou!</p>";
+        }
+    </script>
+</body>
+
+</html>
