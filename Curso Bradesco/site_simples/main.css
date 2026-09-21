@@ -1,0 +1,59 @@
+:root {
+    --color1: #00FF00;
+    --color2: #FFFFFF;
+    --color3: #000000;
+}
+
+* {
+    color: var(--fontcolor);
+    font-family: helvética, sans-serif;
+}
+
+body {
+    background-color: var(--bg);
+}
+
+ul {
+    font-family: helvética, sans-serif;
+}
+
+li {
+    list-style: circle;
+}
+
+.list {
+    list-style: square;
+}
+
+.btn {
+    position: absolute;
+    top: 20px;
+    left: 400px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    color: var(--btnfontcolor);
+    background-color: var(--btnbg);
+}
+
+.btn:focus {
+    outline-style: none;
+}
+
+
+.light-theme {
+    --bg: var(--color1);
+    --fontcolor: var(--color3);
+    --btnbg: var(--color3);
+    --btnfontcolor: var(--color2);
+}
+
+/* bg=cor de fundo, fontcolor=cor da fonte*/
+
+.dark-theme {
+    --bg: var(--color3);
+    --fontcolor: var(--color1);
+    --btnbg: var(--color2);
+    --btnfontcolor: var(--color3);
+}
